@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &132861688379371678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7139571333907950272}
+  - component: {fileID: 6274883178675298301}
+  - component: {fileID: 2125874955153111640}
+  m_Layer: 5
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7139571333907950272
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132861688379371678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 350}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6274883178675298301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132861688379371678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e879a3bb8898b9747bbccf3420a0d4ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allFrogPrefabs:
+  - {fileID: 7214578863237828392, guid: 71fbd9d9130d37a49a00a861982ddb55, type: 3}
+  - {fileID: 4016500049282403011, guid: 5af3eea92c66c874a9f73bdcd66b44b9, type: 3}
+  - {fileID: 6206912163908509714, guid: 639426f37837a7540947d6ed51345cc5, type: 3}
+  - {fileID: 7778113527977461395, guid: 8ff60ee9913b88043aceef72078a06be, type: 3}
+  - {fileID: 8682513344577807542, guid: bad65ebceea5eb54e86ca9a14a1ac62b, type: 3}
+  - {fileID: 7259873104166789186, guid: ae6e01665ebc4594a9d3312c1ff1e4ba, type: 3}
+  - {fileID: 7364932249088811568, guid: 42096b55dd39e0346ae04545682c829b, type: 3}
+  - {fileID: 3626933200819292643, guid: b2a30d0edc00dff40b10b4714122186d, type: 3}
+  - {fileID: 969154022151057072, guid: 6ea8801dcdff2d44f8c9a93dd823e080, type: 3}
+  - {fileID: 6921724339192627647, guid: 30bb7336a8be7b54f9cc09a48d1c75a5, type: 3}
+  spawnPoint: {fileID: 7139571333907950272}
+  boxPoint: {fileID: 0}
+  dragLimitX: 225
+  dropGravity: 50
+  maxHistory: 10
+--- !u!61 &2125874955153111640
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132861688379371678}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
